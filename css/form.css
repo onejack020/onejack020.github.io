@@ -1,0 +1,43 @@
+/**
+ * Styles for the add-observation.html page 
+ */
+#species-guess{
+    width: 20%;
+}
+
+#description{
+    width: 64%;  
+}
+
+#date-observed{
+    width: 20%;
+}
+
+#note{
+    height: 80px;
+    width: 66%;
+}
+
+/* #input_latitude{
+    display:inline;
+} */
+
+#photographer-name{
+    width: 64%;
+}
+
+#photographer-email{
+    width: 64%;
+}
+
+#input_latitude{
+    display:inline;
+} 
+
+#input_longitude{
+    display:inline;
+} 
+
+.errors{
+    color: red;
+}
