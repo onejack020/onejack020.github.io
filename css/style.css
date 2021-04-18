@@ -122,11 +122,7 @@ footer {
  * TODO: style the Search Form
  */
 
-#searchbar {
-  width:76%;
+#searchbar{
+  width:78%;
   display:inline;
-}
-
-#button{
-  width:150px;
 }
