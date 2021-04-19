@@ -6,6 +6,9 @@ function validate(event) {
   // invalid, show the appropriate error message in the form, and stop the 
   // form from being submitted. If both values are valid, allow the form to be
   // submitted.
+  document.getElementById('errors_lat').innerHTML = "";
+  document.getElementById('errors_lon').innerHTML = "";
+  
   input_lat = document.getElementById('input_latitude').value.trim();
   input_lon = document.getElementById('input_longitude').value.trim();
   flag=true;
